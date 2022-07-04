@@ -1,0 +1,455 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 1000;
+}
+.header .insta {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .insta img {
+  height: 30px;
+  width: 100px;
+}
+.header .icons {
+  height: 60px;
+  width: 200px;
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .icons .profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.header .icons .profile img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+.header .search {
+  height: 30px;
+  width: 200px;
+  box-shadow: 0px 0px 1px black;
+  background-color: #EFEFEF;
+}
+.header .search input {
+  border: none;
+  outline: none;
+  background-color: #EFEFEF;
+}
+
+.screen {
+  height: 7400px;
+  width: 100%;
+  background-color: #FAFAFA;
+  box-shadow: 0px 0px 1px black;
+  display: flex;
+  position: relative;
+}
+.screen .body {
+  height: 7110px;
+  width: 500px;
+  box-shadow: 0px 0px 1px white;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.screen .body .status {
+  height: 100px;
+  width: 500px;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.screen .body .status .stat {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: 2px solid black;
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: yellow;
+  border-left-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .body .status .stat img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.screen .body .post {
+  height: 680px;
+  width: 500px;
+  box-shadow: 0px 0px 1px black;
+  position: relative;
+  margin-top: 20px;
+}
+.screen .body .post .postH {
+  height: 60px;
+  width: 500px;
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.screen .body .post .postH .postpro {
+  height: 50px;
+  width: 120px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+  border: none;
+}
+.screen .body .post .postH .postpro .pro {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 100%;
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: yellow;
+  border-left-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .body .post .postH .postpro .pro img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.screen .body .post .postH .proicon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .body .post .content {
+  width: 500px;
+  height: 400px;
+  box-shadow: 0px 0px 1px black;
+}
+.screen .body .post .content img {
+  height: 400px;
+  width: 500px;
+}
+.screen .body .post .reactions {
+  height: 50px;
+  width: 500px;
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.screen .body .post .reactions .reactchat {
+  display: flex;
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.screen .body .post .reactions .bmark {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .body .post .likes {
+  display: flex;
+  height: 30px;
+  width: 90px;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+.screen .body .post .caption {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.screen .body .post .caption i {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.screen .body .post .comment {
+  color: #BFBFBF;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.screen .body .post .time {
+  color: #BFBFBF;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+.screen .body .post .word {
+  height: 40px;
+  width: 500px;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.screen .body .post .word .wordi {
+  margin-left: 5px;
+}
+.screen .body .post .word .wordii {
+  margin-right: 10px;
+  color: #B7E1FC;
+  font-size: 12px;
+  font-weight: bold;
+}
+.screen .body .post .word .input {
+  height: 40px;
+  width: 420px;
+  box-shadow: 0px 0px 1px white;
+  margin-left: 10px;
+}
+.screen .body .post .word .input input {
+  height: 40px;
+  width: 420px;
+  border: none;
+  outline: none;
+}
+.screen .body .post .post2 {
+  height: 680px;
+  width: 500px;
+  box-shadow: 0px 0px 1px black;
+  position: relative;
+  margin-top: 80px;
+}
+.screen .body .post .post3 {
+  height: 680px;
+  width: 500px;
+  box-shadow: 0px 0px 1px black;
+  position: relative;
+  margin-top: 20px;
+}
+.screen .profileinfo {
+  height: 500px;
+  width: 350px;
+  position: absolute;
+  margin-left: 730px;
+  margin-top: 100px;
+  position: fixed;
+}
+.screen .profileinfo .pinfo {
+  height: 70px;
+  width: 350px;
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.screen .profileinfo .pinfo .pdetails {
+  height: 70px;
+  width: 100px;
+  border: 1px solid black;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: none;
+  margin-left: 70px;
+  position: absolute;
+}
+.screen .profileinfo .pinfo .pdetails i {
+  font-weight: bold;
+  font-size: 14px;
+}
+.screen .profileinfo .pinfo .pdetails p {
+  font-size: 14px;
+  color: #BFBFBF;
+}
+.screen .profileinfo .pinfo .switch {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 12px;
+  color: #3BADF7;
+  padding-left: 50px;
+  border: none;
+  font-weight: bold;
+}
+.screen .profileinfo .pinfo .ppic {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+.screen .profileinfo .pinfo .ppic img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+.screen .profileinfo .suggestions {
+  height: 30px;
+  width: 350px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 14px;
+}
+.screen .profileinfo .suggestions .foryou {
+  color: #BFBFBF;
+}
+.screen .profileinfo .links {
+  height: 50px;
+  width: 350px;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+.screen .profileinfo .links a {
+  color: #BFBFBF;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.screen .profileinfo .meta {
+  height: 30px;
+  width: 350px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #BFBFBF;
+}
+
+@media (max-width: 390px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .search {
+    display: none;
+  }
+
+  .screen {
+    width: 700px;
+  }
+  .screen .body {
+    margin-left: 100px;
+  }
+
+  .profileinfo {
+    display: none;
+  }
+}
+@media (max-width: 844px) {
+  .profileinfo {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .search {
+    display: none;
+  }
+
+  .screen {
+    width: 700px;
+  }
+  .screen .body {
+    position: absolute;
+    left: -105px;
+  }
+}
+@media (max-width: 896px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .profileinfo {
+    display: none;
+  }
+}
+@media (max-width: 667px) {
+  .screen {
+    width: 700px;
+  }
+  .screen .body {
+    position: absolute;
+    left: -115px;
+  }
+}
+@media (max-width: 360px) {
+  .screen .body {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 740px) {
+  .screen .body {
+    position: absolute;
+    left: -90px;
+  }
+}
+@media (max-width: 412px) {
+  .screen .body {
+    position: absolute;
+    right: 100px;
+  }
+}
+@media (max-width: 915px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .screen .body {
+    margin-left: 215px;
+  }
+
+  .profileinfo {
+    display: none;
+  }
+}
+@media (max-width: 851px) {
+  .screen .body {
+    position: absolute;
+    right: 170px;
+  }
+}
+@media (max-width: 393px) {
+  .screen .body {
+    position: absolute;
+    right: 100px;
+  }
+}
+@media (max-width: 720px) {
+  .screen .body {
+    position: absolute;
+    left: -100px;
+  }
+}
+
+/*# sourceMappingURL=newsfeed.css.map */

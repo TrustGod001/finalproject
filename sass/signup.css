@@ -1,0 +1,307 @@
+body, html {
+  padding: 0px;
+}
+
+.screen {
+  height: 1200px;
+  width: 100%;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .box {
+  height: 1100px;
+  width: 70%;
+  box-shadow: 0px 0px 2px white;
+  display: flex;
+}
+.screen .box .box1 {
+  height: 80vh;
+  width: 40%;
+  box-shadow: 0px 0px 1px white;
+  margin-top: 150px;
+}
+.screen .box .box2 {
+  height: 900px;
+  width: 40%;
+  box-shadow: 0px 0px 1px white;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.screen .box .box2 .box3 {
+  height: 600px;
+  width: 100%;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.screen .box .box2 .box3 .image {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.screen .box .box2 .box3 .word {
+  height: 50px;
+  width: 270px;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 60px;
+  font-weight: 500;
+  color: #8E8E8E;
+  font-size: 17px;
+}
+.screen .box .box2 .box3 .word1 {
+  color: #8E8E8E;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 130px;
+  margin-left: 115px;
+  position: absolute;
+}
+.screen .box .box2 .box3 .word2 {
+  height: 30px;
+  width: 300px;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 40px;
+  background-color: #0095F6;
+  border: none;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.screen .box .box2 .box3 .word2 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.screen .box .box2 .box3 .box4 {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 215px;
+  position: absolute;
+}
+.screen .box .box2 .box3 .box4 .line {
+  width: 120px;
+  border: 1px solid #D3D3D3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 20px;
+}
+.screen .box .box2 .box3 .box4 span {
+  margin-left: 20px;
+  color: #918888;
+  font-weight: 500;
+  font-size: 13px;
+}
+.screen .box .box2 .box3 .box5 .input {
+  height: 35px;
+  width: 305px;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 35px;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+}
+.screen .box .box2 .box3 .box5 .input #input {
+  border: none;
+  outline: none;
+}
+.screen .box .box2 .box3 .box5 .input1 {
+  height: 35px;
+  width: 305px;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  margin-top: 295px;
+  margin-left: 35px;
+  font-size: 12px;
+  display: flex;
+  padding-left: 10px;
+}
+.screen .box .box2 .box3 .box5 .input1 #input {
+  border: none;
+  outline: none;
+}
+.screen .box .box2 .box3 .box5 .input2 {
+  height: 35px;
+  width: 305px;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 35px;
+  font-size: 12px;
+  display: flex;
+  padding-left: 10px;
+}
+.screen .box .box2 .box3 .box5 .input2 #input {
+  border: none;
+  outline: none;
+}
+.screen .box .box2 .box3 .box5 .input3 {
+  height: 35px;
+  width: 305px;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  margin-top: 385px;
+  margin-left: 35px;
+  font-size: 12px;
+  display: flex;
+  padding-left: 10px;
+}
+.screen .box .box2 .box3 .box5 .input3 #input {
+  border: none;
+  outline: none;
+}
+.screen .box .box2 .box6 {
+  padding-left: 50px;
+  margin-top: 430px;
+  position: absolute;
+  font-size: 13px;
+  color: #A6ADAD;
+}
+.screen .box .box2 .box7 {
+  padding-left: 55px;
+  margin-top: 445px;
+  position: absolute;
+  font-size: 13px;
+  color: #A6ADAD;
+}
+.screen .box .box2 .box7 .learn {
+  text-decoration: none;
+  color: #A6ADAD;
+  font-weight: 500;
+}
+.screen .box .box2 .box8 {
+  position: absolute;
+  margin-top: 460px;
+  font-size: 13px;
+  color: #A6ADAD;
+  padding-left: 170px;
+}
+.screen .box .box2 .box8 a {
+  text-decoration: none;
+  color: #A6ADAD;
+  font-weight: 500;
+}
+.screen .box .box2 .box9 {
+  position: absolute;
+  padding-left: 60px;
+  margin-top: 490px;
+  font-size: 13px;
+  color: #A6ADAD;
+}
+.screen .box .box2 .box9 a {
+  text-decoration: none;
+  color: #A6ADAD;
+  font-weight: 500;
+}
+.screen .box .box2 .box10 {
+  position: absolute;
+  padding-left: 110px;
+  margin-top: 510px;
+  font-size: 13px;
+  color: #A6ADAD;
+}
+.screen .box .box2 .box10 a {
+  text-decoration: none;
+  color: #A6ADAD;
+  font-weight: 500;
+}
+.screen .box .box2 button {
+  height: 30px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: #B2DFFC;
+  border: none;
+  position: absolute;
+  margin-top: 545px;
+  margin-left: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+.screen .box .box2 .login {
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 0px 1px black;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .box .box2 .login a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.screen .box .box2 .get {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.screen .box .box2 .getit {
+  height: 50px;
+  width: 80%;
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.screen .box .box2 .getit .play {
+  height: 50px;
+  width: 40%;
+  box-shadow: 0px 0px 1px white;
+}
+.screen .box .box2 .getit .play img {
+  height: 50px;
+  width: 100%;
+}
+
+.head {
+  height: 30px;
+  width: 70%;
+  border: 2px solid black;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  margin-top: -200px;
+}
+.head a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #A98E8E;
+}
+
+.head2 {
+  height: 30px;
+  width: 25%;
+  border: 2px solid black;
+  margin-left: 500px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #A98E8E;
+  font-size: 12px;
+  border: none;
+}
+
+/*# sourceMappingURL=signup.css.map */

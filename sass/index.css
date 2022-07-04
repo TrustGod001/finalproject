@@ -1,0 +1,522 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.homescreen {
+  height: 100vh;
+  width: 100%;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FAFAFA;
+}
+.homescreen .screen {
+  height: 100vh;
+  width: 75%;
+  box-shadow: 0px 0px 2px #FAFAFA;
+  background-color: #FAFAFA;
+  margin-left: 300px;
+  position: relative;
+}
+.homescreen .screen .boxscreen {
+  height: 600px;
+  width: 40%;
+  box-shadow: 0px 0px 2px #FAFAFA;
+  background-color: #FAFAFA;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: 30px;
+}
+.homescreen .screen .boxscreen1 {
+  height: 400px;
+  width: 35%;
+  box-shadow: 0px 0px 1px black;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-left: 470px;
+  margin-top: 30px;
+}
+.homescreen .screen .boxscreen1 .image {
+  height: 50px;
+  width: 200px;
+  border: 2px solid black;
+  margin-left: 80px;
+  margin-top: 50px;
+  border: none;
+}
+.homescreen .screen .boxscreen1 .mb-3 .form-control {
+  width: 300px !important;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.homescreen .screen .boxscreen1 .mb-3 .btn {
+  margin-top: 20px !important;
+  background-color: #B2DFFC !important;
+  height: 30px !important;
+  margin-left: 30px;
+  width: 300px !important;
+}
+.homescreen .screen .boxscreen1 .mb-3 .btn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.homescreen .screen .boxscreen1 .box {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.homescreen .screen .boxscreen1 .box .line {
+  width: 100px;
+  border: 1px solid #D3D3D3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 20px;
+}
+.homescreen .screen .boxscreen1 .box span {
+  margin-left: 20px;
+  color: #918888;
+  font-weight: bold;
+}
+.homescreen .screen .boxscreen1 .box2 {
+  color: #38519F;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.homescreen .screen .boxscreen1 .box2 a {
+  color: #38519F;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.homescreen .screen .boxscreen1 .box3 {
+  margin-top: 20px;
+}
+.homescreen .screen .boxscreen1 .box3 a {
+  text-decoration: none;
+  margin-left: 130px;
+  margin-top: 100px;
+  font-size: 12px;
+  color: #4F376B;
+}
+.homescreen .screen .box4 {
+  height: 50px;
+  width: 35%;
+  box-shadow: 0px 0px 1px black;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homescreen .screen .box4 .wbox {
+  margin-left: 0px;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.homescreen .screen .box4 .signup {
+  margin-left: 5px;
+  color: #00A2F8;
+  font-weight: bold;
+  font-size: 14px;
+}
+.homescreen .screen .box4 .signup a {
+  text-decoration: none;
+}
+.homescreen .screen .box5 {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  position: absolute;
+  padding-left: 10px;
+  margin-top: 520px;
+  margin-left: 590px;
+  border: none;
+}
+.homescreen .screen .box6 {
+  height: 50px;
+  width: 30%;
+  border: 2px solid black;
+  background-color: #FAFAFA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 560px;
+  margin-left: 500px;
+  border: none;
+}
+.homescreen .screen .box6 .play {
+  height: 50px;
+  width: 40%;
+  box-shadow: 0px 0px 1px white;
+}
+.homescreen .screen .box6 .play img {
+  height: 50px;
+  width: 100%;
+}
+
+.head {
+  height: 30px;
+  width: 70%;
+  border: 2px solid black;
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+.head a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #A98E8E;
+}
+
+.head1 {
+  height: 30px;
+  width: 30%;
+  border: 2px solid black;
+  margin-left: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+}
+.head1 a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #A98E8E;
+}
+
+.head2 {
+  height: 30px;
+  width: 25%;
+  border: 2px solid black;
+  margin-left: 600px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #A98E8E;
+  font-size: 12px;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .homescreen {
+    width: 100%;
+    height: 650px;
+  }
+  .homescreen .screen {
+    position: absolute;
+    margin-left: 100px;
+    width: 75%;
+  }
+  .homescreen .screen .boxscreen1 {
+    width: 300px;
+  }
+  .homescreen .screen .boxscreen1 .image {
+    margin-left: 60px;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 .form-control {
+    width: 200px !important;
+    margin-left: 50px;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 .btn {
+    margin-left: 50px;
+    width: 200px !important;
+  }
+  .homescreen .screen .boxscreen1 .box .line {
+    width: 80px;
+    margin-left: 10px;
+  }
+  .homescreen .screen .boxscreen1 .box2 {
+    margin-left: 50px;
+  }
+  .homescreen .screen .boxscreen1 .box3 {
+    margin-left: -30px;
+  }
+  .homescreen .screen .box4 {
+    width: 35%;
+    margin-left: 490px;
+  }
+  .homescreen .screen .box5 {
+    margin-left: 570px;
+  }
+  .homescreen .screen .box6 {
+    width: 300px;
+    right: 5px;
+  }
+
+  .head {
+    position: absolute;
+    right: 200px;
+  }
+
+  .head1 {
+    position: absolute;
+    margin-top: 20px;
+    right: 380px;
+  }
+
+  .head2 {
+    position: absolute;
+    margin-top: 50px;
+    right: 400px;
+  }
+}
+@media (max-width: 412px) {
+  .homescreen {
+    height: 600px;
+    margin: 0px;
+    position: relative;
+    box-shadow: 0px 0px 1px white;
+    padding: 0px;
+    margin: 0px;
+  }
+  .homescreen .screen {
+    height: 600px;
+    padding-bottom: 50px;
+    right: 0px;
+    padding: 0px;
+  }
+  .homescreen .screen .boxscreen {
+    display: none;
+    width: 360px;
+  }
+  .homescreen .screen .boxscreen1 {
+    margin: 0px;
+    position: relative;
+    right: 100px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .homescreen .screen .boxscreen1 .image {
+    position: relative;
+    top: 10px;
+  }
+  .homescreen .screen .box4 {
+    width: 250px;
+    margin: 0px;
+    position: absolute;
+    right: 90px;
+    bottom: 70px;
+    background-color: #FFFFFF;
+  }
+  .homescreen .screen .box5 {
+    margin: 0px;
+    position: absolute;
+    bottom: 30px;
+    right: 160px;
+  }
+  .homescreen .screen .box6 {
+    margin: 0px;
+    position: relative;
+    left: 250px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+  }
+  .homescreen .screen .box6 .apple {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .homescreen .screen .box6 .apple .w {
+    padding-top: 10px;
+  }
+  .homescreen .screen .box6 .apple .w1 {
+    padding-top: 10px;
+  }
+
+  .head {
+    display: none !important;
+  }
+
+  .head1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 412px;
+    position: relative;
+    width: 100%;
+    right: 309px;
+    margin-top: 50px;
+  }
+
+  .head2 {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    position: relative;
+    right: 300px;
+  }
+}
+@media (max-width: 914px) {
+  .homescreen {
+    width: 100%;
+  }
+  .homescreen .screen {
+    width: 620px;
+  }
+  .homescreen .screen .boxscreen {
+    margin: 0px;
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+  .homescreen .screen .boxscreen1 {
+    margin: 0px;
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 {
+    font-size: 10px;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 input {
+    font-size: 10px;
+  }
+  .homescreen .screen .box4 {
+    margin: 0px;
+    margin-left: 380px;
+    margin-top: 470px;
+    font-size: 12px;
+  }
+  .homescreen .screen .box5 {
+    margin: 0px;
+    margin-left: 450px;
+    margin-top: 530px;
+    font-size: 12px;
+  }
+  .homescreen .screen .box6 .apple {
+    margin: 0px;
+    margin-left: -300px;
+    font-size: 12px;
+  }
+
+  .head {
+    flex-wrap: wrap;
+    width: 700px;
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    margin-left: 40px;
+  }
+  .head a {
+    font-size: 10px;
+  }
+
+  .head1 {
+    flex-wrap: wrap;
+    margin-left: 250px;
+  }
+  .head1 a {
+    font-size: 10px;
+  }
+
+  .head2 {
+    flex-wrap: wrap;
+    margin-left: 270px;
+    margin-bottom: 20px;
+  }
+  .head2 div {
+    font-size: 10px;
+  }
+}
+@media (max-width: 280px) {
+  .homescreen {
+    width: 280px;
+    margin-left: 20px;
+  }
+  .homescreen .screen {
+    width: 75%;
+  }
+  .homescreen .screen .box2 {
+    width: 200px;
+  }
+  .homescreen .screen .boxscreen1 {
+    width: 230px;
+    right: 400px;
+    padding-right: 30px;
+    align-items: center;
+  }
+  .homescreen .screen .boxscreen1 .image {
+    right: 30px;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 #input {
+    position: relative;
+    right: 10px !important;
+    width: 150px !important;
+  }
+  .homescreen .screen .boxscreen1 .mb-3 .btn {
+    position: relative;
+    right: 10px !important;
+    width: 150px !important;
+  }
+  .homescreen .screen .boxscreen1 .box {
+    position: relative;
+    right: 10px !important;
+  }
+  .homescreen .screen .boxscreen1 .box2 {
+    position: relative;
+    right: 20px !important;
+  }
+  .homescreen .screen .boxscreen1 .box3 {
+    position: relative;
+    right: 30px !important;
+  }
+  .homescreen .screen .box4 {
+    margin: 0px;
+    right: 17px;
+  }
+  .homescreen .screen .box5 {
+    margin: 0px;
+    left: 30px;
+  }
+  .homescreen .screen .box6 {
+    margin: 0px;
+    margin-top: 130px;
+    left: -60px;
+    width: 30% !important;
+    position: relative;
+    margin-left: -20px;
+  }
+  .homescreen .screen .box6 .apple {
+    width: 110px;
+    font-size: 8px;
+    padding-left: -20px !important;
+    position: absolute;
+  }
+  .homescreen .screen .box6 .apple .w {
+    border: 2px solid black;
+    border-color: red;
+    padding: 0px;
+    width: 70px;
+    font-size: 8px;
+  }
+  .homescreen .screen .box6 .apple .w1 {
+    border: 2px solid white;
+    padding: 0px;
+    width: 70px;
+    font-size: 8px;
+  }
+
+  .head1 {
+    width: 50%;
+    flex-wrap: wrap;
+    right: 170px;
+  }
+
+  .head2 {
+    width: 100%;
+    margin: 0px;
+    left: 10px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
